@@ -37,7 +37,7 @@ public class Main : MonoBehaviour
             j--;
         }
 
-        int index = 6;
+        int index = 7;
         
         var b=Resources.Load<Sprite>("MapData/"+index);
 
@@ -50,7 +50,8 @@ public class Main : MonoBehaviour
         {
             for (int k = 0; k < w; k++)
             {
-                var tmp = Resources.Load<Sprite>($"MapData/{index}/{i}-{k}");
+                string fileName = index >= 9 ? $"MapData/{index}/{i}/{i}-{k}" : $"MapData/{index}/{i}-{k}";
+                var tmp = Resources.Load<Sprite>(fileName);
                 if(tmp==null)
                     continue;
                 var go = GameObject.Instantiate(p, o0.transform);
