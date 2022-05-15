@@ -1,0 +1,36 @@
+Id,Ident,Type,Name,Latitude_deg,Longitude_deg,Elevation_ft,Continent,Country_name,Iso_country,Region_name,Iso_region,Local_region,Municipality,Scheduled_service,Gps_code,Iata_code,Local_code,Home_link,Wikipedia_link,Keywords,Score,Last_updated
+12432,5KS0,balloonport,"Anthony Balloonport",37.094501,-97.961403,1250,NA,"United States",US,Kansas,US-KS,KS,Anthony,0,5KS0,,5KS0,,,,25,2020-12-18T18:10:43+00:00
+16882,CO28,balloonport,"Suckla Farms Balloonport",40.05830001831055,-104.89199829101562,5050,NA,"United States",US,Colorado,US-CO,CO,Dacono,0,CO28,,CO28,,,,25,2008-06-13T14:30:04+00:00
+331321,GB-0609,balloonport,"Black Horse Ballooning Club",51.710142,-0.712451,,EU,"United Kingdom",GB,England,GB-ENG,ENG,"Great Missenden, Bucks",0,,,,https://www.bhbc.club,,,0,2019-05-26T05:58:54+00:00
+38811,AR-0136,balloonport,"El Manantial Airport",-35.1943,-58.3594,49,SA,Argentina,AR,"Buenos Aires Province",AR-B,B,"Coronel Brandsen",0,,,EML,,,,50,2016-06-03T15:13:02+00:00
+12936,64CL,balloonport,"Goodyear Blimp Base Airport",33.855333,-118.276234,21,NA,"United States",US,California,US-CA,CA,Gardena,0,64CL,,64CL,,,,50,2020-12-29T11:30:26+00:00
+11644,4OH6,balloonport,"Wingfoot Lake Airship Operations Balloonport",41.009498596191406,-81.35790252685547,1164,NA,"United States",US,Ohio,US-OH,OH,"Akron Suffield",0,4OH6,,4OH6,,,,25,2008-06-13T14:30:04+00:00
+10140,35JY,balloonport,"Cyber Density Balloon Spot Balloonport",40.43439865112305,-74.63469696044922,75,NA,"United States",US,"New Jersey",US-NJ,NJ,"Belle Mead",0,35JY,,35JY,,,,25,2008-06-13T14:30:04+00:00
+21769,MA26,balloonport,"Balloon Port At Dingley Dell Balloonport",42.120399475097656,-72.2562026977539,465,NA,"United States",US,Massachusetts,US-MA,MA,Brimfield,0,MA26,,MA26,,,,25,2008-06-13T14:30:04+00:00
+24352,RI16,balloonport,"Keskinen Balloonport",41.71991,-71.631603,255,NA,"United States",US,"Rhode Island",US-RI,RI,Coventry,0,RI16,,RI16,,,,25,2021-10-29T12:31:29+00:00
+23079,NJ34,balloonport,"P & A Deptford Heliport",39.844601,-75.091301,30,NA,"United States",US,"New Jersey",US-NJ,NJ,Deptford,0,,,,,,NJ34,25,2020-10-08T16:07:09+00:00
+18299,JY42,balloonport,"Mabel's Balloonport",40.468299865722656,-75.0238037109375,460,NA,"United States",US,"New Jersey",US-NJ,NJ,Frenchtown,0,JY42,,JY42,,,,25,2008-06-13T14:30:04+00:00
+9213,28NC,balloonport,"Balloonport of Greensboro Balloonport",35.9557991027832,-79.81890106201172,800,NA,"United States",US,"North Carolina",US-NC,NC,Greensboro,0,28NC,,28NC,,,,25,2008-07-13T21:58:21+00:00
+7829,13M,balloonport,"Aeronut Park Balloonport",42.60419845581055,-83.85859680175781,980,NA,"United States",US,Michigan,US-MI,MI,Howell,0,13M,,13M,,,,25,2008-06-13T14:30:04+00:00
+7767,12JY,balloonport,"Clinton Elks Lodge Balloonport",40.604587,-74.921538,37,NA,"United States",US,"New Jersey",US-NJ,NJ,Pittstown,0,12JY,,12JY,,,,25,2021-09-21T15:34:03+00:00
+25392,VA60,balloonport,"Flying Horse Farm Balloonport",39.051498,-77.777496,450,NA,"United States",US,Virginia,US-VA,VA,Unison,0,VA60,,VA60,,,,25,2020-09-23T14:17:31+00:00
+332718,GB-0682,balloonport,"Lydiard Park",51.561725,-1.85193,,EU,"United Kingdom",GB,England,GB-ENG,ENG,,0,,,,,,,0,2019-11-23T03:26:29+00:00
+343066,US-3629,balloonport,"Balloon Fiesta Park",35.19652,-106.59717,5075,NA,"United States",US,"New Mexico",US-NM,NM,Albuquerque,0,,,,,,,0,2021-04-15T03:44:48+00:00
+328796,US-0934,balloonport,"Murphy's Landing Balloonport",41.666664,-73.1894444,1050,NA,"United States",US,Connecticut,US-CT,CT,Bethlehem,0,CT30,,CT30,,,,0,2018-07-20T17:23:22+00:00
+323838,DE-0351,balloonport,"Balloonport Bitterfeld",51.62455,12.29391,,EU,Germany,DE,Saxony-Anhalt,DE-ST,ST,Bitterfeld,0,,,,http://www.ballon-bitterfeld.de/,,,0,2017-06-13T05:21:36+00:00
+322152,FR-0354,balloonport,"Cérizols Balloonport",43.128889,1.069444,1312,EU,France,FR,Occitanie,FR-OCC,OCC,Cérizols,0,,,LF0926,http://www.ballon-bleu-horizon.fr/,,,0,2018-02-16T10:36:29+00:00
+324445,BE-0012,balloonport,"Céroux-Mousty Balloon Field",50.660241,4.513276,,EU,Belgium,BE,"Walloon Brabant Province",BE-WBR,WBR,Céroux-Mousty,0,,,,http://www.europeanballoon.be/fr/site-decollage-place-ceroux-mousty.html,,,0,2021-07-21T11:23:01+00:00
+338796,US-2457,balloonport,"Cudjoe Key South TARS Site",24.69609,-81.50449,4,NA,"United States",US,Florida,US-FL,FL,"Cudjoe Key",0,,,,,,,0,2021-01-07T13:19:54+00:00
+338798,US-2459,balloonport,"Cudjoe Key North TARS Site",24.70094,-81.5061,4,NA,"United States",US,Florida,US-FL,FL,"Cudjoe Key",0,,,,,,,0,2021-01-07T13:21:16+00:00
+338800,US-2461,balloonport,"Deming TARS Site",32.02655,-107.86418,4216,NA,"United States",US,"New Mexico",US-NM,NM,Deming,0,,,,,,,0,2021-01-07T13:23:58+00:00
+338794,US-2455,balloonport,"Eagle Pass TARS Site",28.38537,-100.28594,709,NA,"United States",US,Texas,US-TX,TX,"Eagle Pass",0,,,,,,,0,2021-01-07T13:17:22+00:00
+338795,US-2456,balloonport,"Fort Huachuca TARS Site",31.48581,-110.29571,4872,NA,"United States",US,Arizona,US-AZ,AZ,"Fort Huachuca",0,,,,,,,0,2021-01-07T13:18:14+00:00
+343923,DE-0448,balloonport,"Freiballon-Startplatz Köln-Sülz",50.91305,6.89627,,EU,Germany,DE,"North Rhine-Westphalia",DE-NW,NW,Köln-Sülz,0,,,,,,,0,2021-05-04T13:27:02+00:00
+339097,US-2641,balloonport,"Characters in Flight Balloonport",28.37096,-81.51947,,NA,"United States",US,Florida,US-FL,FL,"Lake Buena Vista",0,,,,,,,0,2021-01-11T13:23:06+00:00
+352775,US-6494,balloonport,"Metamora Balloonport",42.9461,-83.29176,1048,NA,"United States",US,Michigan,US-MI,MI,Metamora,0,,,,,,,0,2022-02-16T17:24:19+00:00
+45530,2JY7,balloonport,"Alba Vineyard Balloonport",40.615689,-75.164167,240,NA,"United States",US,"New Jersey",US-NJ,NJ,Milford,0,2JY7,,2JY7,,,,0,2009-12-06T18:30:37+00:00
+46296,59ID,balloonport,"Palisades Field",43.184833,-111.049361,5624,NA,"United States",US,Idaho,US-ID,ID,Palisades,0,59ID,,59ID,,,,0,2010-03-17T13:26:06+00:00
+338799,US-2460,balloonport,"Rio Grande City TARS Site",26.5723,-98.81714,330,NA,"United States",US,Texas,US-TX,TX,"Rio Grande City",0,,,,,,,0,2021-01-07T13:23:02+00:00
+338804,US-2465,balloonport,"Marfa TARS Site",30.4344,-104.32061,4701,NA,"United States",US,Texas,US-TX,TX,Shafter,0,,,,,,,0,2021-01-07T13:30:49+00:00
+45548,NY80,balloonport,"Aurora Balloonport",42.696389,-78.569167,900,NA,"United States",US,"New York",US-NY,NY,"South Wales",0,NY80,,NY80,,,,0,2009-12-06T18:30:39+00:00
+338803,US-2464,balloonport,"Yuma TARS Site",33.01587,-114.24328,991,NA,"United States",US,Arizona,US-AZ,AZ,Yuma,0,,,,,,,0,2021-01-07T13:29:47+00:00
