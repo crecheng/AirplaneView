@@ -50,6 +50,10 @@ namespace AirplaneView
             _white=Resources.Load<Sprite>("MapData/white");
         }
         
+        public void DebugUpdate()
+        {
+            InitPos();
+        }
 
         public void InitPos()
         {
@@ -91,53 +95,6 @@ namespace AirplaneView
                 }
             }
             CheckUnload(index,x,y);
-        }
-
-        public void DebugUpdate()
-        {
-            InitPos();
-        }
-
-        public static Vector3 GetPos(double latitudeDeg, double longitudeDeg)
-        {
-            longitudeDeg += 180.0;
-            float mapHeight = RightDown.y - LeftTop.y;
-            float mapWidth = RightDown.x - LeftTop.x;
-            
-            double t =  Math.Log(Math.Tan((90+latitudeDeg)*Math.PI/360.0))/(Math.PI/180.0);
-            double h =   t * mapHeight / 100f;
-            double w = longitudeDeg / 360.0 * mapWidth;
-            Vector3 pos = Vector3.zero;
-            pos.y = CenterPos.y - (float)h;
-            pos.x = LeftTop.x + (float)w;
-            return pos;
-        }
-        public static Vector2 GetPos(Vector3 position)
-        {
-            Vector2 pos=Vector2.zero;
-            float mapHeight = RightDown.y - LeftTop.y;
-            float mapWidth = RightDown.x - LeftTop.x;
-            
-            double h= CenterPos.y - position.y;
-            double w=position.x- LeftTop.x;
-
-            pos.y = (float)(w / mapWidth * 360.0f);
-            double t = h * 100f / mapHeight;
-
-            pos.x = (float) ( Math.Atan(Math.Exp(t * Math.PI / 180.0))*360f/Math.PI-90);
-            pos.y -= 180.0f;
-            
-            return pos;
-        }
-        
-        public static Vector3 GetPos(AirportData data)
-        {
-
-            if (data == null)
-            {
-                return Vector3.zero;
-            }
-            return GetPos(data.Latitude_deg,data.Longitude_deg);
         }
 
         private void CheckUnload(int index,int x,int y)
@@ -258,6 +215,58 @@ namespace AirplaneView
                 }
                 _go[i].Clear();
             }
+        }
+        
+        /// <summary>
+        /// 经纬度坐标转换为unity坐标
+        /// </summary>
+        /// <param name="latitudeDeg"></param>
+        /// <param name="longitudeDeg"></param>
+        /// <returns></returns>
+        public static Vector3 GetPos(double latitudeDeg, double longitudeDeg)
+        {
+            longitudeDeg += 180.0;
+            float mapHeight = RightDown.y - LeftTop.y;
+            float mapWidth = RightDown.x - LeftTop.x;
+            
+            double t =  Math.Log(Math.Tan((90+latitudeDeg)*Math.PI/360.0))/(Math.PI/180.0);
+            double h =   t * mapHeight / 100f;
+            double w = longitudeDeg / 360.0 * mapWidth;
+            Vector3 pos = Vector3.zero;
+            pos.y = CenterPos.y - (float)h;
+            pos.x = LeftTop.x + (float)w;
+            return pos;
+        }
+        
+        /// <summary>
+        /// unity坐标转换为经纬度坐标
+        /// </summary>
+        /// <param name="position"></param>
+        /// <returns></returns>
+        public static Vector2 GetPos(Vector3 position)
+        {
+            Vector2 pos=Vector2.zero;
+            float mapHeight = RightDown.y - LeftTop.y;
+            float mapWidth = RightDown.x - LeftTop.x;
+            
+            double h= CenterPos.y - position.y;
+            double w=position.x- LeftTop.x;
+
+            pos.y = (float)(w / mapWidth * 360.0f);
+            double t = h * 100f / mapHeight;
+
+            pos.x = (float) ( Math.Atan(Math.Exp(t * Math.PI / 180.0))*360f/Math.PI-90);
+            pos.y -= 180.0f;
+            return pos;
+        }
+        
+        public static Vector3 GetPos(AirportData data)
+        {
+            if (data == null)
+            {
+                return Vector3.zero;
+            }
+            return GetPos(data.Latitude_deg,data.Longitude_deg);
         }
 
         private void LoadJson(int index)

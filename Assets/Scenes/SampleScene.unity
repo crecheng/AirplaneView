@@ -1351,7 +1351,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -54.3, y: 410.5}
+  m_AnchoredPosition: {x: -51.7, y: 410.5}
   m_SizeDelta: {x: 51.7993, y: 51.9028}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &109962900
@@ -9126,7 +9126,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -208.1, y: 410.5}
+  m_AnchoredPosition: {x: -132.65005, y: 410.5}
   m_SizeDelta: {x: 51.7993, y: 51.9028}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &975444748
@@ -13130,7 +13130,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1483314608
 RectTransform:
   m_ObjectHideFlags: 0
@@ -13148,7 +13148,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -132.65, y: 410.5}
+  m_AnchoredPosition: {x: -208.09995, y: 338.90002}
   m_SizeDelta: {x: 51.7993, y: 51.9028}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1483314609
@@ -15630,7 +15630,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -208.1, y: 338.9}
+  m_AnchoredPosition: {x: -208.1, y: 410.49997}
   m_SizeDelta: {x: 51.7993, y: 51.9028}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1802771186
@@ -16727,6 +16727,8 @@ MonoBehaviour:
   IsClickUI: 0
   AirportInfoText: {fileID: 716018582}
   MapTimeText: {fileID: 1211864668}
+  Select: {fileID: 0}
+  SelectType: 0
   line: {fileID: 0}
   click: 0
   MapZoom: {fileID: 0}

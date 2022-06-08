@@ -131,8 +131,7 @@ public class Main : MonoBehaviour
         {
             UpdateMapZoom(mouseScrollWheel > 0);
         }
-
-
+        
         var movePos = UpdateMouseMove();
         if (movePos != Vector3.zero)
         {

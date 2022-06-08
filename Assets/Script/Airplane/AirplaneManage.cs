@@ -96,14 +96,22 @@ namespace AirplaneView
             List<Airplane> list = new List<Airplane>();
             foreach (var airplane in _data)
             {
-                int a = airplane.Value.Airline.Arrive.Id;
-                int d = airplane.Value.Airline.Departure.Id;
-                if (arriveId == -1 && departureId == d)
-                    list.Add(airplane.Value);
-                else if (departureId == -1 && arriveId == a)
-                    list.Add(airplane.Value);
-                else if(a==arriveId && d==departureId)
-                    list.Add(airplane.Value);
+                try
+                {
+                    int a = airplane.Value.Airline.Arrive.Id;
+                    int d = airplane.Value.Airline.Departure.Id;
+                    if (arriveId == -1 && departureId == d)
+                        list.Add(airplane.Value);
+                    else if (departureId == -1 && arriveId == a)
+                        list.Add(airplane.Value);
+                    else if(a==arriveId && d==departureId)
+                        list.Add(airplane.Value);
+                }
+                catch (Exception e)
+                {
+                    Debug.Log("Data not find!");
+                }
+
             }
             return list;
         }

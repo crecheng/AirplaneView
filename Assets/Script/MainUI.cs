@@ -219,13 +219,13 @@ public class MainUI : MonoBehaviour
                 if (r != null)
                     list.Add(r.GetItem());
             }
-            if (!string.IsNullOrEmpty(arrive) || !string.IsNullOrEmpty(arrive))
+            if (!string.IsNullOrEmpty(arrive) || !string.IsNullOrEmpty(departure))
             {
                 int a;
                 int d;
                 if (string.IsNullOrEmpty(arrive))
                     a = -1;
-                if (string.IsNullOrEmpty(arrive))
+                if (string.IsNullOrEmpty(departure))
                     d = -1;
                 if (!int.TryParse(arrive, out a))
                     a = -1;
